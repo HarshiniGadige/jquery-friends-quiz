@@ -1,0 +1,69 @@
+body header {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+.container {
+  width: 50%;
+  min-height: 100px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.scratchPad1 div.ready{
+  margin: 20px;
+  padding-left: 10%;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.yesNoOpt div {
+  display: inline-block;
+  width: 65px;
+  height: 35px;
+  margin: 20px;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-size: 20px;
+  background-color: #abc;
+  border-radius: 10px;
+}
+.yesNoOpt div:hover {
+  background-color: #789;
+  cursor: pointer;
+  color: #fff;
+}
+.scratchPad2 {
+  margin: 20px;
+  padding-left: 10%;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.scratchPad2 .options div {
+  padding-top: 5px;
+}
+div.opt {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 15px;
+}
+.scratchPad2 .checkAnswer {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 5px;
+  background-color: #aaa;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.scratchPad2 .checkAnswer:hover{
+  display: inline-block;
+  cursor: pointer;
+  background-color: #888;
+  color: #ccc;
+}
+.scratchPad2 .answer {
+  display: inline-block;
+}

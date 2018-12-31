@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Friends Quiz</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  </head>
+  <body>
+    <header>Friends Quiz</header>
+      <div class="container">
+        <div class="scratchPad1">
+          <div class="ready">Ready?</div>
+          <div class="yesNoOpt">
+            <div onclick="startQuiz()">Yes</div>
+            <div>No</div>
+          </div>
+        </div>
+        <div class="scratchPad2">
+          <form>
+            <span class="sno"></span>
+            <div class="question">
+
+            </div>
+            <div class="options">
+              <div><input type="radio" value="1" name="options" /><div class="opt"></div></div>
+              <div><input type="radio" value="2" name="options" /><div class="opt"></div></div>
+              <div><input type="radio" value="3" name="options" /><div class="opt"></div></div>
+            </div>
+            <div class="checkAnswer">
+              <div type="button" onclick="checkAnswer()">Check</div>
+            </div>
+            <div class="answer">
+              The correct answer is 
+            </div>
+          </form>
+        </div>
+      </div>
+
+  </body>
+  <script src="lib/jquery.js"></script>
+  <script src="src/main.js"></script>
+</html>
